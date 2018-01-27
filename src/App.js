@@ -14,9 +14,14 @@ class App extends Component {
     });
   }
 
+  latestRating = () => {
+    console.log("testing");
+        document.querySelector('.LRA').innerHTML = "test";
+  };
+
   render() {
     return (
-      <div className="App">
+      <div className="App" id="tess">
         <button onClick={this.toggleModal}>
           Click Icon here
         </button>
@@ -24,7 +29,7 @@ class App extends Component {
         <Modal show={this.state.isOpen}
           onClose={this.toggleModal}>
             <ul className="block">
-              <li>LATEST RATING</li>
+              <li onClick={this.latestRating} className="LRA">LATEST RATING</li>
               <li>RESEARCH</li>
               <li>ISSUES</li>
               <li>SURVEILLANCE DATA</li>
