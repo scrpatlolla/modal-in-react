@@ -30,13 +30,15 @@ class Modal extends React.Component {
     //   marginTop: 150
     // };
 
+
     return (
       <div className="backdrop" style={backdropStyle}>
         <div className="modal">
           {this.props.children}
 
+
           <div className="footer">
-            <button onClick={this.props.onClose} className="btn">
+            <button onClick={this.props.onClose} className="close-btn">
               Close
             </button>
           </div>

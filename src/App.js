@@ -18,13 +18,23 @@ class App extends Component {
     return (
       <div className="App">
         <button onClick={this.toggleModal}>
-          Open the modal
+          Click Icon here
         </button>
 
         <Modal show={this.state.isOpen}
           onClose={this.toggleModal}>
-          `Here's some content for the modal`
+            <ul className="block">
+              <li>LATEST RATING</li>
+              <li>RESEARCH</li>
+              <li>ISSUES</li>
+              <li>SURVEILLANCE DATA</li>
+              <li>RATINGS NAVIGATOR</li>
+              <li>RATING HISTORY</li>
+              <li>IDENTIFIERS</li>
+              <li>DISCLOSURES</li>
+            </ul>
         </Modal>
+
       </div>
     );
   }

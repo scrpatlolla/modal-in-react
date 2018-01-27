@@ -21,5 +21,8 @@
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]
+  },
+  "devDependencies": {
+    "font-awesome": "^4.7.0"
   }
 }
