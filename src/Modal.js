@@ -20,18 +20,19 @@ class Modal extends React.Component {
     };
 
     // The modal "window"
-    const modalStyle = {
-      backgroundColor: '#fff',
-      borderRadius: 5,
-      maxWidth: 500,
-      minHeight: 300,
-      margin: '0 auto',
-      padding: 30
-    };
+    // const modalStyle = {
+    //   backgroundColor: '#fff',
+    //   borderRadius: 5,
+    //   maxWidth: 600,
+    //   minHeight: 100,
+    //   margin: '0 auto',
+    //   padding: 30,
+    //   marginTop: 150
+    // };
 
     return (
       <div className="backdrop" style={backdropStyle}>
-        <div className="modal" style={modalStyle}>
+        <div className="modal">
           {this.props.children}
 
           <div className="footer">
