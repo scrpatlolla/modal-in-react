@@ -17,19 +17,19 @@ body {
 }
 
 .block {
-	margin-top: -6% !important;
+	margin-top: -4% !important;
 	margin-left: -9% ;
 }
 
 .block li {
 	list-style: none;
-	margin-bottom: 1.2%;
+	margin-bottom: 1.8%;
 	font-size: 11px;
 	color:red;
 }
 
 .close-btn {
 	float: right;
-    margin-top: -24%;
+    margin-top: -30%;
     margin-right: -6%;
 }
